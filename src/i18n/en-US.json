@@ -1,0 +1,79 @@
+{
+    "page": {
+        "home": {
+            "nav": "Home",
+            "title": "Home - Luiz Maestri",
+            "img": {
+                "me": "Me"
+            },
+            "text": {
+                "title": "Welcome",
+                "description": "I start in the IT industry in 2014. I had worked with many technologies for developing solutions than bring benefits for customers looking for practicality in your life. 2+ years of experience in Python, 4+ years of experience in java and 2+ experience in hybrid mobile technologies.",
+                "contact": "Contact me."
+            }
+        },
+        "experience": {
+            "nav": "Experience",
+            "title": "Experience",
+            "text": {
+                "responsibilities": "Responsibilities"
+            },
+            "jobs": {
+                "bry": {
+                    "1": {
+                        "start": "October, 2019",
+                        "end": "Current",
+                        "job": "Full Stack Developer",
+                        "description": "<li style='list-style: none;'>Requirements Elicitation.</li><li style='list-style: none;'>Development of web and desktop solutions for digital signature.</li>"
+                    }
+                },
+                "neoway": {
+                    "1": {
+                        "start": "Setember, 2014",
+                        "end": "July, 2015",
+                        "job": "Backend Developer",
+                        "description": "<li style='list-style: none;'>Developing of web crawlers in Java and support migration to Scrapy/Python</li>"
+                    },
+                    "2": {
+                        "start": "May, 16",
+                        "end": "October, 2019",
+                        "job": "Full Stack/Mobile Developer",
+                        "description": "<li style='list-style: none;'>Development of system and app for vehicles financing, using JSF, Spring and Sencha Touch (ExtJs).</li><li style='list-style: none;'>Development of native app for android to help in the recovery of automotive vehicles.</li><li style='list-style: none;'>Development of REST API using Spring 5 with webflux (Reactor)</li>"
+                    }
+                },
+                "shift": {
+                    "1": {
+                        "start": "October, 2015",
+                        "end": "April, 2016",
+                        "job": "Full Stack Developer",
+                        "description": "<li style='list-style: none;'>Development of web and desktop solutions for various market Segments, such as education and real estate using  google app engine, Google Datastore(GQL), and AngularJS.</li>"
+                    }
+                },
+                "gabelles": {
+                    "1": {
+                        "start": "August, 2019",
+                        "end": "Current",
+                        "job": "Dev Partner",
+                        "description": "<li style='list-style: none;'>Requirements Elicitation.</li><li style='list-style: none;'>Development of web and desktop solutions for digital signature.</li>"
+                    }
+                }
+            }
+        },
+        "projects": {
+            "nav": "Projects",
+            "title": "Projects",
+            "text": {
+                "title": "Projects",
+                "all": "All"
+            }
+        },
+        "texts": {
+            "no_description": "No description",
+            "github": "View source on GitHub"
+        }
+    },
+    "languages": {
+        "pt_BR": "Portuguese (Br)",
+        "en_US": "English (USA)"
+    }
+}
