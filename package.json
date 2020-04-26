@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --basepath svelte-site --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
     "copy": "cpx __sapper__/export/**/* docs",
-    "predeploy": "del-cli __sapper__ docs/*",
+    "predeploy": "del-cli __sapper__ docs",
     "deploy": "npm-run-all -s export copy",
     "postdeploy": "git add docs && git commit -m \"new web page version\" docs && git push"
   },

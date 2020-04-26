@@ -1,7 +1,7 @@
 <script context="module">
 	export async function preload(){
 		try {
-			const res = await this.fetch('http://api.github.com/users/LuizMaestri/repos');
+			const res = await this.fetch('https://api.github.com/users/LuizMaestri/repos');
 			const data = await res.json();
 			const projects = data.map(
 				({
