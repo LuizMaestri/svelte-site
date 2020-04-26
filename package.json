@@ -1,11 +1,11 @@
 {
   "name": "svelte-site",
-  "description": "my svelte-site website",
+  "description": "my svelte site website",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "export": "sapper export --basepath svelte-site --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
