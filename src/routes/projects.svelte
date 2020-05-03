@@ -63,6 +63,11 @@
 		margin-bottom: 10px;
 		width: max-content;
 	}
+	@media screen and (max-width: 768px) {			
+		ul {
+			width: min-content;
+		}
+	}
 
 	/* clearfix */
 	ul::after {
